@@ -15,3 +15,7 @@ func Learning(s string) error {
 	fmt.Println("not learning time")
 	return fmt.Errorf("oops")
 }
+
+// var do_something string = "AAA"
+// fmt.Println(do_something)
+// on merge
