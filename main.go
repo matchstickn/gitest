@@ -11,6 +11,9 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+
+	var do_something string = "AAA"
+	fmt.Println(do_something)
 }
 
 func Learning(s string) error {
@@ -21,7 +24,3 @@ func Learning(s string) error {
 	fmt.Println("not learning time")
 	return fmt.Errorf("oops")
 }
-
-// var do_something string = "AAA"
-// fmt.Println(do_something)
-// on merge
