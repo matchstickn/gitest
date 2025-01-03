@@ -24,3 +24,10 @@ func Learning(s string) error {
 	fmt.Println("not learning time")
 	return fmt.Errorf("oops")
 }
+
+func GitLearning(s bool) string {
+	if s {
+		return "awesome"
+	}
+	return "nah fam"
+}
