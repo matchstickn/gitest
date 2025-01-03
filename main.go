@@ -1,10 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"log"
+)
 
 func main() {
 	Learning("not")
-	Learning("yes")
+	err := Learning("yes")
+	if err != nil {
+		log.Fatal(err)
+	}
 }
 
 func Learning(s string) error {
